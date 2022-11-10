@@ -6,13 +6,17 @@ NPM   : 2106637776
 Kelas : E  
 
 ### Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget dan jelaskan perbedaan dari keduanya.<br>
-Stateless widget adalah widget yang tidak pernah berubah, sementara stateful widget dinyatakan oleh pengguna untuk widget yang akan berubah sewaktu aplikasi berjalan (contohnya ketika menerima input dari pengguna).  
+Stateless widget adalah widget yang tidak pernah berubah (propertinya final), sementara stateful widget dinyatakan oleh pengguna untuk widget yang akan berubah sewaktu aplikasi berjalan (contohnya ketika menerima input dari pengguna).  
 
-### Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.  
-Text :
-Floating Button : 
-Icon :
-
+### Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+```
+1. Text    : _widget_ yang menampilkan tulisan 
+2. Padding : _widget_ yang menambahkan _padding_ di sekitar suatu atau sekumpulan _widget_  
+3. Row     : _widget_ yang menampilkan elemen _children_ secara horizontal  
+4. Center  : _widget_ yang membuat posisi _child_ di dalamnya berada di tengah  
+5. Column  : _widget_ yang menampilkan elemen _children_ dalam _vertical array_  
+6. Spacer  : _widget_ yang membuat ruang kosong yang dapat digunakan untuk mengatur jarak antar widget  
+```
 
 ### Apa fungsi dari setState()? Jelaskan variabel apa saja yang dapat terdampak dengan fungsi tersebut.  
 setState() digunakan dalam flutter ketika suatu perubahan pada screen diinginkan. Caranya dengan memasukkan variabel ke dalam fungsi setState sehingga flutter tahu variabel mana yang akan merubah tampilan UI dalam frame berikutnya
