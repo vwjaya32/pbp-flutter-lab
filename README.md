@@ -1,16 +1,29 @@
-# untitled
+# Tugas 7: Elemen Dasar Flutter
+---
 
-A new Flutter project.
+Nama  : Vinsen Wijaya  
+NPM   : 2106637776  
+Kelas : E  
 
-## Getting Started
+### Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget dan jelaskan perbedaan dari keduanya.<br>
+Stateless widget adalah widget yang tidak pernah berubah, sementara stateful widget dinyatakan oleh pengguna untuk widget yang akan berubah sewaktu aplikasi berjalan (contohnya ketika menerima input dari pengguna).  
 
-This project is a starting point for a Flutter application.
+### Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.  
+Text :
+Floating Button : 
+Icon :
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Apa fungsi dari setState()? Jelaskan variabel apa saja yang dapat terdampak dengan fungsi tersebut.  
+setState() digunakan dalam flutter ketika suatu perubahan pada screen diinginkan. Caranya dengan memasukkan variabel ke dalam fungsi setState sehingga flutter tahu variabel mana yang akan merubah tampilan UI dalam frame berikutnya
+ 
+### Jelaskan perbedaan antara const dengan final.
+Final dapat dikatakan sebagi read-only variable yang diinisialisasi sewaktu Run Time.  Const diinisialisasi disaat compile time, itu berarti datetime.now tidak bisa dinyatakan dalam const karena datanya baru dinyatakan saat runtime
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+1. Membuat app baru
+2. Membuat fungsi _decrement
+3. Membuat Text baru yang akan menampilkan ganjil ketika _counter bernilai ganjil
+4. Cari cara untuk membuat 2 floating action button di internet
+5. Copy solusi dari internet dan modifikasi agar button min hanya muncul jika _counter >0
+6. Testing codingan di browser Edge
