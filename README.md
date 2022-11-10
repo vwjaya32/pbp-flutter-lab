@@ -27,7 +27,9 @@ Final dapat dikatakan sebagi read-only variable yang diinisialisasi sewaktu Run 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 1. Membuat app baru
 2. Membuat fungsi _decrement
-3. Membuat Text baru yang akan menampilkan ganjil ketika _counter bernilai ganjil
-4. Cari cara untuk membuat 2 floating action button di internet
-5. Copy solusi dari internet dan modifikasi agar button min hanya muncul jika _counter >0
-6. Testing codingan di browser Edge
+3. Mengubah Text "You have pressed ..." menjadi "GENAP"
+4. Membuat Text baru ber-_value_ "GANJIL" 
+5. Memberikan _logic_ `if-else` sehingga ketika _counter_ bernilai ganjil akan ditampilkan kata ganjil dan ketika genap ditampilkan kata genap
+6. Cari cara untuk membuat 2 floating action button di internet
+7. Copy solusi dari internet dan modifikasi agar _button min_ hanya muncul jika _counter >0
+8. Testing codingan di browser Edge
