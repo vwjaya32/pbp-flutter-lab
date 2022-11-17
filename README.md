@@ -46,10 +46,9 @@ Sementara pada `Navigator.pushReplacement` route sebelumnya akan langsung dibuan
 ```
 1. Text    : _widget_ yang menampilkan tulisan 
 2. Padding : _widget_ yang menambahkan _padding_ di sekitar suatu atau sekumpulan _widget_  
-3. Row     : _widget_ yang menampilkan elemen _children_ secara horizontal  
-4. Center  : _widget_ yang membuat posisi _child_ di dalamnya berada di tengah  
-5. Column  : _widget_ yang menampilkan elemen _children_ dalam _vertical array_  
-6. Spacer  : _widget_ yang membuat ruang kosong yang dapat digunakan untuk mengatur jarak antar widget  
+3. Drawer  : _widget_ untuk menampilkan hamburger menu  
+4. Column  : _widget_ yang menampilkan elemen _children_ dalam _vertical array_  
+5. Card    : _widget_ untuk menampilkan data dalam bentuk card
 ```
 
 ### Sebutkan jenis-jenis event yang ada pada Flutter (contoh: onPressed).
@@ -65,3 +64,8 @@ Widget Navigator menampilkan layar seakan sebagai sebuah tumpukan (stack).
 Untuk menavigasi sebuah halaman baru, kita dapat mengakses Navigator melalui BuildContext dan memanggil fungsi push() atau pop()
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+1. Menambahkan file Drawer untuk menavigasi menu counter, Tambah Budget, View Budget.
+2. Menambahkan halaman form untuk TambahBudget dengan mengimplementasikan halaman form seperti tutorial 7
+3. Membuat file budget.dart yang menampung class object untuk menyimpan data yang diinput di form
+4. Mengimplementasikan cara untuk menampilkan data dalam database dalam file budget.dart
+5. Tampilan menggunakan widget Container dan widget Card.
