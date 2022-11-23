@@ -1,9 +1,16 @@
-# Tugas 7: Elemen Dasar Flutter
+# PBP FLUTTER
 ---
-
 Nama  : Vinsen Wijaya  
 NPM   : 2106637776  
 Kelas : E
+
+### Daftar Isi
+- [Tugas 7](#Tugas 7: Elemen Dasar Flutter)
+- [Tugas 8](#Tugas 8: Flutter Form)
+- [Tugas 9](#Tugas 9: Integrasi Web Service pada Flutter)
+
+---
+# Tugas 7: Elemen Dasar Flutter
 
 ### Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget dan jelaskan perbedaan dari keduanya.<br>
 Stateless widget adalah widget yang tidak pernah berubah (propertinya final), sementara stateful widget dinyatakan oleh pengguna untuk widget yang akan berubah sewaktu aplikasi berjalan (contohnya ketika menerima input dari pengguna).
@@ -69,3 +76,7 @@ Untuk menavigasi sebuah halaman baru, kita dapat mengakses Navigator melalui Bui
 3. Membuat file budget.dart yang menampung class object untuk menyimpan data yang diinput di form
 4. Mengimplementasikan cara untuk menampilkan data dalam database dalam file budget.dart
 5. Tampilan menggunakan widget Container dan widget Card.
+
+---
+
+# Tugas 9: Integrasi Web Service pada Flutter
