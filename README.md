@@ -1,16 +1,13 @@
 # PBP FLUTTER
----
+
+
 Nama  : Vinsen Wijaya  
 NPM   : 2106637776  
 Kelas : E
 
-### Daftar Isi
-- [Tugas 7](#Tugas 7: Elemen Dasar Flutter)
-- [Tugas 8](#Tugas 8: Flutter Form)
-- [Tugas 9](#Tugas 9: Integrasi Web Service pada Flutter)
+[Tugas 7](#Tugas7:-Elemen-Dasar-Flutter)  
 
----
-# Tugas 7: Elemen Dasar Flutter
+# Tugas7: Elemen Dasar Flutter
 
 ### Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget dan jelaskan perbedaan dari keduanya.<br>
 Stateless widget adalah widget yang tidak pernah berubah (propertinya final), sementara stateful widget dinyatakan oleh pengguna untuk widget yang akan berubah sewaktu aplikasi berjalan (contohnya ketika menerima input dari pengguna).
@@ -41,7 +38,6 @@ Final dapat dikatakan sebagi read-only variable yang diinisialisasi sewaktu Run 
 7. Copy solusi dari internet dan modifikasi agar _button min_ hanya muncul jika _counter >0
 8. Testing codingan di browser Edge
 
----
 
 # Tugas 8: Flutter Form
 
@@ -77,6 +73,5 @@ Untuk menavigasi sebuah halaman baru, kita dapat mengakses Navigator melalui Bui
 4. Mengimplementasikan cara untuk menampilkan data dalam database dalam file budget.dart
 5. Tampilan menggunakan widget Container dan widget Card.
 
----
 
 # Tugas 9: Integrasi Web Service pada Flutter
