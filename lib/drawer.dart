@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
-import 'form.dart';
-import 'budget.dart';
+import 'package:untitled/page/form.dart';
+import 'package:untitled/page/budget.dart';
+import 'package:untitled/page/watchlist.dart';
 
 class CustomDrawer extends StatelessWidget {
   const CustomDrawer({super.key});
@@ -11,6 +12,8 @@ class CustomDrawer extends StatelessWidget {
     return Drawer(
         child: Column(
             children: [
+              const ListTile(
+              ),
               ListTile(
                   title: const Text('counter_7'),
                   onTap: (){
@@ -35,6 +38,15 @@ class CustomDrawer extends StatelessWidget {
                     Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(builder: (context) => const DataPage())
+                    );
+                  }
+              ),
+              ListTile(
+                  title: const Text('mywatchlist'),
+                  onTap: (){
+                    Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(builder: (context) => const WatchListPage())
                     );
                   }
               ),
