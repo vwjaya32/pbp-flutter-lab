@@ -85,7 +85,7 @@ Untuk menavigasi sebuah halaman baru, kita dapat mengakses Navigator melalui Bui
 
 ### Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?  
 Bisa, tetapi hal tersebut tidak lebih baik dari membuat model sebelum melakukan pengambilan data json. Alasannya karena tidak ada model yang digunakan sebagai _template_ untuk menampung data-data yang diambil. Pengolahan data dalam kode menjadi kurang rapi dan terkadang sulit diikuti oleh pengembang. Oleh karena itu, dibutuhkan model yang akan menampung data dari json sehingga data yang masuk dapat tersimpan dengan rapi dan mudah untuk diakses ketika dibutuhkan.  
-  
+<br>
   
 ### Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
 ```
@@ -100,7 +100,7 @@ Bisa, tetapi hal tersebut tidak lebih baik dari membuat model sebelum melakukan 
 9. ListView        : widget yang menampilkan menampilkan anak-anaknya(widget) satu demi satu dalam arah gulir.  
 10. ElevatedButton : widget yang dapat digunakan untuk membuat button.
 ```
-  
+<br>
 
 ### Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
 1. Data json dapat di-fetch dari alamat URI sebuah API endpoint. 
@@ -108,7 +108,7 @@ Bisa, tetapi hal tersebut tidak lebih baik dari membuat model sebelum melakukan 
 3. Data yang diambil di-_decode_ ke dalam json (UTF-8).  
 3. Mengolah data json dari web service dengan memanfaatkan metode pada model yang telah dibuat untuk mengonversi json menjadi data dalam bentuk sebuah model.  
 4. Data dari model ditampilkan pada Flutter dengan memanfaatkan widget yang tepat.    
-  
+<br>
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.  
 1. Menambahkan `List Tile` baru pada `drawer.dart` untuk menu _mywatchlist_.  
@@ -117,4 +117,4 @@ Bisa, tetapi hal tersebut tidak lebih baik dari membuat model sebelum melakukan 
 4. Fungsi untuk fetch di_refactor_ ke file baru.  
 5. Membuat _file page_ baru untuk menampilkan data yang telah di-_fetch_.  
 6. Mengonfigurasi penampilan aplikasi  
-  
+<br>
