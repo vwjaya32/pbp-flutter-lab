@@ -82,3 +82,36 @@ Untuk menavigasi sebuah halaman baru, kita dapat mengakses Navigator melalui Bui
 
 ---
 # Tugas 9 Integrasi Web Service pada Flutter
+
+### Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?  
+Bisa, tetapi hal tersebut tidak lebih baik dari membuat model sebelum melakukan pengambilan data json. Alasannya karena tidak ada model yang digunakan sebagai _template_ untuk menampung data-data yang diambil. Pengolahan data dalam kode menjadi kurang rapi dan terkadang sulit diikuti oleh pengembang. Oleh karena itu, dibutuhkan model yang akan menampung data dari json sehingga data yang masuk dapat tersimpan dengan rapi dan mudah untuk diakses ketika dibutuhkan.  
+
+### Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+```
+1. Text            : widget yang menampilkan tulisan.   
+2. Padding         : widget yang menambahkan _padding_ di sekitar suatu atau sekumpulan _widget_.    
+3. Drawer          : widget untuk menampilkan hamburger menu.  
+4. Column          : widget yang menampilkan elemen children dalam vertical array.  
+5. Row             : widget yang menampilkan elemen children dalam horizontal array.  
+6. Expanded        : widget yang digunakan untuk mengekspansi ukuran Row, Column, atau Flex agar mengisi ruang kosong pada page.  
+7. SizedBox        : widget berbentuk kotak yang dapat diatur ukurannya.  
+8. FutureBuilder   : widget yang membuat dirinya sendiri berdasarkan cuplikan interaksi terbaru dengan Future.  
+9. ListView        : widget yang menampilkan menampilkan anak-anaknya(widget) satu demi satu dalam arah gulir.  
+10. ElevatedButton : widget yang dapat digunakan untuk membuat button.
+```
+
+
+### Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+1. Data json dapat di-fetch dari alamat URI sebuah API endpoint. 
+2. Mengambil data json dengan metode http.get
+3. Data yang diambil di-_decode_ ke dalam json (UTF-8).  
+3. Mengolah data json dari web service dengan memanfaatkan metode pada model yang telah dibuat untuk mengonversi json menjadi data dalam bentuk sebuah model.  
+4. Data dari model ditampilkan pada Flutter dengan memanfaatkan widget yang tepat.    
+
+### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.  
+1. Menambahkan `List Tile` baru pada `drawer.dart` untuk menu _mywatchlist_.  
+2. Membuat model baru yang bersesuaian dengan model.py dari _mywatchlist_ di Heroku.  
+3. Mengambil data dari link json Heroku Tugas PBP (Langkah-langkah berdasarkan tutorial).  
+4. Fungsi untuk fetch di_refactor_ ke file baru.  
+5. Membuat _file page_ baru untuk menampilkan data yang telah di-_fetch_.  
+6. Mengonfigurasi penampilan aplikasi  
